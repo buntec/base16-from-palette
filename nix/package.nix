@@ -15,7 +15,7 @@ buildNpmPackage {
       ../test
     ];
   };
-  npmDepsHash = "sha256-KCsq6hHtDJ93ynKphA28AZ/pR7BcIFzrRe8Mnt6AIXY=";
+  npmDepsHash = "sha256-TxiM9KdHhr6vqTRD88ZD1LkUoCpaMAWR1Hak+ad6ozU=";
   dontNpmBuild = true;
   doCheck = true;
   checkPhase = ''
@@ -25,6 +25,7 @@ buildNpmPackage {
   '';
   meta = {
     description = "Generate Base16 and Base24 schemes from Color Hunt, Coolors, and other palettes";
+    license = lib.licenses.mit;
     mainProgram = "base16-from-palette";
   };
 }

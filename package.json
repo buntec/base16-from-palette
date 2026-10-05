@@ -2,6 +2,7 @@
   "name": "base16-from-palette",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "type": "module",
   "bin": {
     "base16-from-palette": "./bin/base16-from-palette.js"

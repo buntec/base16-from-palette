@@ -109,3 +109,7 @@ npm test            # run the tests
 nix flake check     # build the package, run the tests, and generate example schemes
 nix fmt             # format Nix files
 ```
+
+## License
+
+[MIT](LICENSE)
