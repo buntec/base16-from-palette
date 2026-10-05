@@ -104,10 +104,14 @@ The Nix library passes `source` through to the CLI, so no Nix changes are needed
 
 ## Development
 
+Common tasks are available as [just](https://github.com/casey/just) recipes (`just --list`):
+
 ```console
-npm test            # run the tests
-nix flake check     # build the package, run the tests, and generate example schemes
-nix fmt             # format Nix files
+just test                    # run the tests
+just check                   # build the package, run the tests, and generate example schemes
+just format                  # format Nix files
+just preview <palette> ...   # generate schemes and open the HTML preview
+just update-npm-hash         # refresh npmDepsHash after changing package-lock.json
 ```
 
 ## License
