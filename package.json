@@ -1,0 +1,15 @@
+{
+  "name": "base16-from-palette",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "base16-from-palette": "./bin/base16-from-palette.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "colorjs.io": "0.7.1"
+  }
+}
